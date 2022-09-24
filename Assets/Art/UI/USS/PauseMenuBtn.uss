@@ -1,0 +1,29 @@
+.PauseMenuButton {
+    width: 18%;
+    height: 38%;
+    background-image: url('project://database/Assets/Art/UI/base.png?fileID=21300000&guid=85351a7f4449d1d4bba638411d1f5db2&type=3#base');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/%E6%B1%89%E4%BB%AA%E5%B0%8F%E9%9A%B6%E4%B9%A6%E7%B9%81.TTF?fileID=12800000&guid=e0a4f1f24df930d45bc21d871a0b293f&type=3#汉仪小隶书繁');
+    font-size: 80px;
+    color: rgba(0, 0, 0, 255);
+}
+
+.PauseMenuButton:hover {
+    width: 24%;
+    height: 50%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/%E6%B1%89%E4%BB%AA%E5%B0%8F%E9%9A%B6%E4%B9%A6%E7%B9%81.TTF?fileID=12800000&guid=e0a4f1f24df930d45bc21d871a0b293f&type=3#汉仪小隶书繁');
+    -unity-font-definition: none;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 255);
+}

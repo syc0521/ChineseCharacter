@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/USS/PauseButton.uss?fileID=7433441132597879392&amp;guid=ba2f2723b37d6dd4198ffe418ca8ac8d&amp;type=3#PauseButton" />
+    <Style src="project://database/Assets/Art/UI/USS/SelectButton.uss?fileID=7433441132597879392&amp;guid=672513cab4b44aa4a8453b10c4854967&amp;type=3#SelectButton" />
+    <ui:VisualElement name="SelectUI" style="flex-grow: 1; align-items: stretch;">
+        <ui:VisualElement name="BackButton" style="flex-direction: row; width: 13%; left: auto; align-items: center; justify-content: center; flex-grow: 0; padding-top: 0; margin-top: 0; margin-bottom: 0; transform-origin: center; translate: 0 10%; height: 15%;">
+            <ui:Button display-tooltip-when-elided="true" name="PauseButton" enable-rich-text="true" text="II" class="PauseButton" style="display: flex; visibility: visible; overflow: visible; opacity: 1; flex-grow: 0; flex-shrink: 0; align-items: stretch; flex-basis: auto; font-size: 60px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 60%; top: 7%; align-items: center; justify-content: center;">
+            <ui:GroupBox style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-around; padding-right: 3px; width: 55%;">
+                <ui:Button display-tooltip-when-elided="true" name="LeftButton" class="SelectButton" />
+                <ui:Button display-tooltip-when-elided="true" name="EnterButton" style="width: 65%; opacity: 0; visibility: visible;" />
+                <ui:Button display-tooltip-when-elided="true" name="RightButton" class="SelectButton" style="left: 3%;" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,68 @@
+Event	ID	Name			Wwise Object Path	Notes
+	105396258	Play_Transform_Effect			\Default Work Unit\Play_Transform_Effect	
+	327991364	Play_Shake_Effect			\Default Work Unit\Play_Shake_Effect	
+	338778843	Play_Time_Effect			\Default Work Unit\Play_Time_Effect	
+	440098904	Play_Grass_Effect			\Default Work Unit\Play_Grass_Effect	
+	465300898	Play_Cut_Effect			\Default Work Unit\Play_Cut_Effect	
+	766066096	Play_Sundown_Effect			\Default Work Unit\Play_Sundown_Effect	
+	774475193	Play_Crow_Effect			\Default Work Unit\Play_Crow_Effect	
+	990665014	Stop_River_Effect			\Default Work Unit\Stop_River_Effect	
+	1133601518	Play_Fire_Effect			\Default Work Unit\Play_Fire_Effect	
+	1147136283	Play_Smoke_Effect			\Default Work Unit\Play_Smoke_Effect	
+	1893163709	Play_Success_Effect			\Default Work Unit\Play_Success_Effect	
+	2102574790	Play_TreeDown_Effect			\Default Work Unit\Play_TreeDown_Effect	
+	2292952944	Play_Yantai_Effect			\Default Work Unit\Play_Yantai_Effect	
+	2360394884	Stop_Tree_Effect			\Default Work Unit\Stop_Tree_Effect	
+	2387105840	Play_Rain_Effect			\Default Work Unit\Play_Rain_Effect	
+	2573482054	Play_Create_Effect			\Default Work Unit\Play_Create_Effect	
+	2627199907	Play_StoneInWater_Effect			\Default Work Unit\Play_StoneInWater_Effect	
+	2632259088	Stop_Fire_Effect			\Default Work Unit\Stop_Fire_Effect	
+	2700922697	Play_Bed_Effect			\Default Work Unit\Play_Bed_Effect	
+	2718580077	Stop_Smoke_Effect			\Default Work Unit\Stop_Smoke_Effect	
+	2818665114	Stop_Rain_Effect			\Default Work Unit\Stop_Rain_Effect	
+	2825127546	Play_Open_Effect			\Default Work Unit\Play_Open_Effect	
+	2826224230	Play_BirdFlying_Effect			\Default Work Unit\Play_BirdFlying_Effect	
+	3170301356	Play_River_Effect			\Default Work Unit\Play_River_Effect	
+	3298394846	Play_Tree_Effect			\Default Work Unit\Play_Tree_Effect	
+	3454122789	Play_Translation_Effect			\Default Work Unit\Play_Translation_Effect	
+	3701395898	Play_TaskSuccess_Effect			\Default Work Unit\Play_TaskSuccess_Effect	
+	3722900282	Play_Button_Effect			\Default Work Unit\Play_Button_Effect	
+	3770620150	Play_Pickup_Effect			\Default Work Unit\Play_Pickup_Effect	
+	4132018675	Play_Logo			\Default Work Unit\Play_Logo	
+	4236906148	Play_Vapor_Effect			\Default Work Unit\Play_Vapor_Effect	
+
+Effect plug-ins	ID	Name	Type				Notes
+	121555824	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	931381837	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+	3614057183	_1_Frame_Delay	Wwise Stereo Delay			
+	4180247629	New_Wwise_Parametric_EQ	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2903262	Level2_Grass_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Level2_Grass_Effect_822CB100.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Level2_Grass_Effect		215680
+	38013351	Time_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Time_Effect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Time_Effect		253504
+	56001358	Success_bgm	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Success_bgm_58DD9146.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Success_bgm		896164
+	60245688	Pickup_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Pickup_Effect_8F32AF5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Pickup_Effect		30988
+	68518618	Logo	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\untitled_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Logo		1110564
+	133287782	Open_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Open_Effect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Open_Effect		55360
+	171513478	Yantai_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Yantai_Effect_427DBC07.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Yantai_Effect		281624
+	213329244	Level2_BirdFlying_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\乌鸦飞_EDAF297F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Level2_BirdFlying_Effect		454208
+	348016192	Button_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Button_Effect_386315A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_Effect		49764
+	360627441	shake_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\shake_Effect_1CF54563.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\shake_Effect		35584
+	362986123	Sundown_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Sundown_Effect_D3AC1834.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Sundown_Effect		409076
+	374512680	Fire_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Fire_Effect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Fire_Effect		159040
+	398230695	Bed_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Bed_Effect_71FB6592.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Bed_Effect		137684
+	518549201	transform_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\transform_Effect_5C4B9DD7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\transform_Effect		294976
+	539927483	Level2_Cut_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Level2_Cut_Effect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Level2_Cut_Effect		188992
+	569427810	TaskSuccess_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\TaskSuccess_Effect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\TaskSuccess_Effect		49470
+	665423274	Level2_StoneInWater_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Level2_StoneInWater_Effect_1503C4A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Level2_StoneInWater_Effect		116316
+	670129121	Level2_TreeDown_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Level2_TreeDown_Effect_FB9CEBE6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Level2_TreeDown_Effect		253412
+	675486633	River_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\River_Effect_16156DA2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\River_Effect		5751364
+	723941074	Smoke_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Smoke_Effect_C277BA8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Smoke_Effect		2929556
+	811269539	Translation_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Translation_Effect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Translation_Effect		88820
+	874740735	Tree_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Tree_Effect_DE59F217.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Tree_Effect		561176
+	924150163	Create_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Create_Effect_C81D9EA4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Create_Effect		47006
+	981413208	Level2_Vapor_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Level2_Vapor_Effect_939F3975.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Level2_Vapor_Effect		591136
+	1040687843	Level2_Rain_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Level2_Rain_Effect_7198C448.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Level2_Rain_Effect		4590128
+	1068412603	Level2_Crow_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Level2_Crow_Effect_2F653261.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effect\Level2_Crow_Effect		348804
+

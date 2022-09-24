@@ -1,0 +1,39 @@
+.PauseButton {
+    width: 38%;
+    height: 55%;
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/Art/UI/base.png?fileID=21300000&guid=85351a7f4449d1d4bba638411d1f5db2&type=3#base');
+    opacity: 1;
+    background-color: rgba(88, 88, 88, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    translate: 0 -10px;
+}
+
+.PauseButton:hover {
+    width: 45%;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+    background-image: url('project://database/Assets/Art/UI/base.png?fileID=21300000&guid=85351a7f4449d1d4bba638411d1f5db2&type=3#base');
+    opacity: 1;
+    background-color: rgba(88, 88, 88, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    translate: 0 -10px;
+}

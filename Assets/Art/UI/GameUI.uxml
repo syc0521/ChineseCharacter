@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/USS/Hint.uss?fileID=7433441132597879392&amp;guid=dc7514bc0f37c584282a048706d0d602&amp;type=3#Hint" />
+    <Style src="project://database/Assets/Art/UI/USS/PauseButton.uss?fileID=7433441132597879392&amp;guid=ba2f2723b37d6dd4198ffe418ca8ac8d&amp;type=3#PauseButton" />
+    <ui:VisualElement name="GameUI" style="height: 15%; width: 100%; flex-direction: row;">
+        <ui:VisualElement name="Pause" style="flex-direction: row; width: 15%; left: auto; align-items: center; justify-content: center; flex-grow: 1; padding-top: 0; margin-top: 0; margin-bottom: 0; transform-origin: left; translate: 0 10px;">
+            <ui:Button display-tooltip-when-elided="true" name="PauseButton" enable-rich-text="true" text="I I" class="PauseButton" style="display: flex; visibility: visible; overflow: visible; opacity: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="HintNode" style="flex-direction: row-reverse; min-width: 0; min-height: auto; width: 100%; height: 100%; left: auto; max-width: none; position: relative; align-items: center; justify-content: flex-start; flex-grow: 1;">
+            <ui:VisualElement name="Slot2" class="normal" style="background-image: none; width: 5%; height: 50%; -unity-background-scale-mode: stretch-to-fill; flex-direction: column; flex-wrap: nowrap; align-items: auto; justify-content: flex-start; background-color: rgba(0, 0, 0, 0); right: 5%; rotate: 0; scale: 1 1;">
+                <ui:VisualElement name="Hint2" class="Hint" style="margin-left: 0; background-color: rgba(0, 0, 0, 0); -unity-background-scale-mode: stretch-to-fill; transform-origin: center; translate: 0 0; opacity: 0; -unity-background-image-tint-color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Slot1" class="normal" style="background-image: none; width: 5%; height: 50%; -unity-background-scale-mode: stretch-to-fill; flex-direction: column; flex-wrap: nowrap; align-items: auto; justify-content: flex-start; background-color: rgba(0, 0, 0, 0); right: 7.5%;">
+                <ui:VisualElement name="Hint1" class="Hint" style="opacity: 0; -unity-background-image-tint-color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Slot0" class="normal" style="background-image: none; right: 10%; width: 5%; height: 50%;">
+                <ui:VisualElement name="Hint0" class="Hint" style="opacity: 0; -unity-background-image-tint-color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

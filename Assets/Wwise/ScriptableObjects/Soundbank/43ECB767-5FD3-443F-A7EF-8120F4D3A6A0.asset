@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f80d95876fa6dd48aad1d6c37270364, type: 3}
+  m_Name: 43ECB767-5FD3-443F-A7EF-8120F4D3A6A0
+  m_EditorClassIdentifier: 
+  objectName: BGMSoundBank
+  id: 3370353384
+  guid: 43ECB767-5FD3-443F-A7EF-8120F4D3A6A0

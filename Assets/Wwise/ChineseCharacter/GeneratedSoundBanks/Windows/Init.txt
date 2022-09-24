@@ -1,0 +1,46 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3473087568	LevelState			\Default Work Unit\LevelState	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	LevelState			
+	2678230381	Level2	LevelState			
+	2678230382	Level1	LevelState			
+	2678230383	Level0	LevelState			
+	3705726509	Title	LevelState			
+	748895195	None	GameState			
+	1160234136	Normal	GameState			
+	3092587493	Pause	GameState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	286721459	Pause	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\BGM		
+	543388263	Pause	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	818185882	Pause	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effect		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	412724365	BGM			\Default Work Unit\Master Audio Bus\BGM	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	2161712798	Effect			\Default Work Unit\Master Audio Bus\Effect	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

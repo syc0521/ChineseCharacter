@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3126765036	Play_BGM			\Default Work Unit\Play_BGM	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3473087568	LevelState			\Default Work Unit\LevelState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	LevelState			
+	2678230381	Level2	LevelState			
+	2678230382	Level1	LevelState			
+	2678230383	Level0	LevelState			
+	3705726509	Title	LevelState			
+
+Effect plug-ins	ID	Name	Type				Notes
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	494274934	Level0_bgm	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\【BGM】关卡一 1.0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Level0Container\Level0_bgm\Level0_bgm		13137816
+	495471412	windy_bgm	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\windy_bgm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Level1Container\Level1_bgm\windy_bgm		8257600
+	553298805	Level1_BGM	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\【BGM】关卡二 2.0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Level1Container\Level1_bgm\Level1_BGM		9349696
+	632303000	level2	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\level2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Level2Container\Level2_bgm\level2		16934464
+	946778757	title_bgm_new	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\title_bgm_new_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\TitleContainer\Title_bgm\title_bgm_new		6538816
+

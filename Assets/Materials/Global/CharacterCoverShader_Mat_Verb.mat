@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterCoverShader_Mat_Verb
+  m_Shader: {fileID: 4800000, guid: aa352d0382c97964d90456c6a7c6b922, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _1:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex2:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex3:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex4:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex5:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 81da12469d3a9be4d8f92a78fb6aba89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0
+    - _AlphaCutoff: 0.5
+    - _Float0: 0
+    - _Float2: 0.51
+    - _FresnelIntensify: 5
+    - _FresnelPower: 0.75
+    - _PerturbationRange: 0.179
+    - _Range: 0
+    - _TessEdgeLength: 16
+    - _TessMax: 25
+    - _TessMaxDisp: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 16
+    - _TransAmbient: 0.3
+    - _TransDirect: 0.68
+    - _TransNormal: 0.29
+    - _TransScattering: 32.2
+    - _TransShadow: 0.32
+    - _TransStrength: 29.2
+    - _VertexOffsetRange: 0.207
+    m_Colors:
+    - _Albedo: {r: 0.15606391, g: 1, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 0.099114455, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0.2923412, b: 1, a: 1}
+    - _FresnelColor: {r: 0.6603774, g: 0, b: 0, a: 1}
+    - _Power: {r: 0.01, g: 0.01, b: 0, a: 0}
+  m_BuildTextureStacks: []

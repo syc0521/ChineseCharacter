@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3770620150	Play_Pickup_Effect			\Default Work Unit\Play_Pickup_Effect	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	60245688	Pickup_Effect	E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\SFX\Pickup_Effect_A67816CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickup_Effect		30988
+

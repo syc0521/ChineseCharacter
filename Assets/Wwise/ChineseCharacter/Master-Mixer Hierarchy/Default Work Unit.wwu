@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E5A22AFD-929C-4349-B2FB-659A557327AD}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{E5A22AFD-929C-4349-B2FB-659A557327AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{D6A3EE9A-B734-41A9-B3CC-890038A0A701}" WorkUnitID="{1B415C63-1885-492B-BC88-C15DF681A192}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="BGM" ID="{05698B47-B7C1-4E59-9366-1344FCDB5640}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{C40D1ECF-9763-4F15-83D1-EDDEEA617806}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause" ID="{EEFDF175-9941-421E-8BE1-017173A12E49}"/>
+										<CustomState Name="" ID="{547582AE-BE61-4AB9-A7E6-519C653980E9}" ShortID="286721459">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="70"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{BB5B8AD8-F90D-4EF3-9BF9-F2803EAC3A71}"/>
+										<CustomState Name="" ID="{EDFA9647-7405-4236-A8F4-2FA0C4E0C1E2}" ShortID="264581809"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Effect" ID="{30ECC61A-815E-4009-86BA-8543D74A9BAA}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{C40D1ECF-9763-4F15-83D1-EDDEEA617806}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause" ID="{EEFDF175-9941-421E-8BE1-017173A12E49}"/>
+										<CustomState Name="" ID="{715F02C8-88F8-4E5F-BBE6-3673CE65839C}" ShortID="818185882">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{BB5B8AD8-F90D-4EF3-9BF9-F2803EAC3A71}"/>
+										<CustomState Name="" ID="{8EE9F4CC-6A0D-44CD-B527-2108E8C38B90}" ShortID="5247073"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="BGM" ID="{05698B47-B7C1-4E59-9366-1344FCDB5640}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="SFX" ID="{1CD77811-9FB1-401F-9187-746D4CAADFE4}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{C40D1ECF-9763-4F15-83D1-EDDEEA617806}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause" ID="{EEFDF175-9941-421E-8BE1-017173A12E49}"/>
+										<CustomState Name="" ID="{0B5FF80A-C55D-4B94-B3F4-2A1369B964D9}" ShortID="543388263">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{BB5B8AD8-F90D-4EF3-9BF9-F2803EAC3A71}"/>
+										<CustomState Name="" ID="{F912AEFD-98C9-418C-84E3-969D1EE33C2A}" ShortID="881222640"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="UI" ID="{6EC11A5E-EA3E-4DF2-9E4E-432FB4F29911}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8536FF56-C06E-4DF5-B8A4-F35C94175682}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{8536FF56-C06E-4DF5-B8A4-F35C94175682}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="LevelState" ID="{51FA6ADA-4010-4FCB-AC8C-A92C3C71688F}">
+					<ChildrenList>
+						<State Name="None" ID="{AB2A1AA8-80DC-4B33-A8A4-C1219C8D111E}"/>
+						<State Name="Title" ID="{F60631A7-7485-4766-BD29-6215B1D6F6B8}"/>
+						<State Name="Level0" ID="{5423F975-0BB6-4ACA-8B86-0D78513471E2}"/>
+						<State Name="Level1" ID="{6AC61FE4-9BCC-4614-879D-5F793E076023}"/>
+						<State Name="Level2" ID="{067D6665-37EF-46F4-A8C4-BF9A6782B1A2}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="GameState" ID="{C40D1ECF-9763-4F15-83D1-EDDEEA617806}">
+					<ChildrenList>
+						<State Name="None" ID="{FEF135DE-5F41-43CB-AD1F-BC6C0A51318C}"/>
+						<State Name="Pause" ID="{EEFDF175-9941-421E-8BE1-017173A12E49}"/>
+						<State Name="Normal" ID="{BB5B8AD8-F90D-4EF3-9BF9-F2803EAC3A71}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

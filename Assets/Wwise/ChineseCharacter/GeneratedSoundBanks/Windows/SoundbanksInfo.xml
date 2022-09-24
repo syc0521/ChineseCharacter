@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\</ProjectRoot>
+		<SourceFilesRoot>E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\unity\ChineseCharacter\Assets\Wwise\ChineseCharacter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2721312122">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{C40D1ECF-9763-4F15-83D1-EDDEEA617806}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{FEF135DE-5F41-43CB-AD1F-BC6C0A51318C}"/>
+						<State Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\GameState\Pause" GUID="{EEFDF175-9941-421E-8BE1-017173A12E49}"/>
+						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\GameState\Normal" GUID="{BB5B8AD8-F90D-4EF3-9BF9-F2803EAC3A71}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3370353384" Language="SFX" Hash="1531207918">
+			<ObjectPath>\SoundBanks\Default Work Unit\BGMSoundBank</ObjectPath>
+			<ShortName>BGMSoundBank</ShortName>
+			<Path>BGMSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3126765036" Name="Play_BGM" ObjectPath="\Events\Default Work Unit\Play_BGM" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="494274934" Language="SFX">
+					<ShortName>【BGM】关卡一 1.0.wav</ShortName>
+					<Path>SFX\【BGM】关卡一 1.0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="495471412" Language="SFX">
+					<ShortName>windy_bgm.wav</ShortName>
+					<Path>SFX\windy_bgm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="553298805" Language="SFX">
+					<ShortName>【BGM】关卡二 2.0.wav</ShortName>
+					<Path>SFX\【BGM】关卡二 2.0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="632303000" Language="SFX">
+					<ShortName>level2.wav</ShortName>
+					<Path>SFX\level2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="946778757" Language="SFX">
+					<ShortName>title_bgm_new.wav</ShortName>
+					<Path>SFX\title_bgm_new_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="3473087568" Name="LevelState" ObjectPath="\States\Default Work Unit\LevelState" GUID="{51FA6ADA-4010-4FCB-AC8C-A92C3C71688F}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\LevelState\None" GUID="{AB2A1AA8-80DC-4B33-A8A4-C1219C8D111E}"/>
+						<State Id="3705726509" Name="Title" ObjectPath="\States\Default Work Unit\LevelState\Title" GUID="{F60631A7-7485-4766-BD29-6215B1D6F6B8}"/>
+						<State Id="2678230383" Name="Level0" ObjectPath="\States\Default Work Unit\LevelState\Level0" GUID="{5423F975-0BB6-4ACA-8B86-0D78513471E2}"/>
+						<State Id="2678230382" Name="Level1" ObjectPath="\States\Default Work Unit\LevelState\Level1" GUID="{6AC61FE4-9BCC-4614-879D-5F793E076023}"/>
+						<State Id="2678230381" Name="Level2" ObjectPath="\States\Default Work Unit\LevelState\Level2" GUID="{067D6665-37EF-46F4-A8C4-BF9A6782B1A2}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3641780361" Language="SFX" Hash="2290939403">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFXSoundBank</ObjectPath>
+			<ShortName>SFXSoundBank</ShortName>
+			<Path>SFXSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2700922697" Name="Play_Bed_Effect" ObjectPath="\Events\Default Work Unit\Play_Bed_Effect" DurationType="OneShot" DurationMin="0.716764" DurationMax="0.716764"/>
+				<Event Id="2826224230" Name="Play_BirdFlying_Effect" ObjectPath="\Events\Default Work Unit\Play_BirdFlying_Effect" DurationType="OneShot" DurationMin="2.365341" DurationMax="2.365341"/>
+				<Event Id="3722900282" Name="Play_Button_Effect" ObjectPath="\Events\Default Work Unit\Play_Button_Effect" DurationType="OneShot" DurationMin="0.563475" DurationMax="0.563475"/>
+				<Event Id="2573482054" Name="Play_Create_Effect" ObjectPath="\Events\Default Work Unit\Play_Create_Effect" DurationType="OneShot" DurationMin="0.411175" DurationMax="0.581489"/>
+				<Event Id="774475193" Name="Play_Crow_Effect" ObjectPath="\Events\Default Work Unit\Play_Crow_Effect" DurationType="OneShot" DurationMin="2.816343" DurationMax="2.816343"/>
+				<Event Id="465300898" Name="Play_Cut_Effect" ObjectPath="\Events\Default Work Unit\Play_Cut_Effect" DurationType="OneShot" DurationMin="0.984" DurationMax="0.984"/>
+				<Event Id="1133601518" Name="Play_Fire_Effect" ObjectPath="\Events\Default Work Unit\Play_Fire_Effect" DurationType="OneShot" DurationMin="1.802449" DurationMax="1.802449"/>
+				<Event Id="440098904" Name="Play_Grass_Effect" ObjectPath="\Events\Default Work Unit\Play_Grass_Effect" DurationType="OneShot" DurationMin="1.123016" DurationMax="1.123016"/>
+				<Event Id="4132018675" Name="Play_Logo" ObjectPath="\Events\Default Work Unit\Play_Logo" DurationType="OneShot" DurationMin="6.294989" DurationMax="6.294989"/>
+				<Event Id="2825127546" Name="Play_Open_Effect" ObjectPath="\Events\Default Work Unit\Play_Open_Effect" DurationType="OneShot" DurationMin="0.626939" DurationMax="0.626939"/>
+				<Event Id="3770620150" Name="Play_Pickup_Effect" ObjectPath="\Events\Default Work Unit\Play_Pickup_Effect" DurationType="OneShot" DurationMin="0.135434" DurationMax="0.191533"/>
+				<Event Id="2387105840" Name="Play_Rain_Effect" ObjectPath="\Events\Default Work Unit\Play_Rain_Effect" DurationType="Infinite"/>
+				<Event Id="3170301356" Name="Play_River_Effect" ObjectPath="\Events\Default Work Unit\Play_River_Effect" DurationType="Infinite"/>
+				<Event Id="327991364" Name="Play_Shake_Effect" ObjectPath="\Events\Default Work Unit\Play_Shake_Effect" DurationType="OneShot" DurationMin="0.165768" DurationMax="0.165768"/>
+				<Event Id="1147136283" Name="Play_Smoke_Effect" ObjectPath="\Events\Default Work Unit\Play_Smoke_Effect" DurationType="Infinite"/>
+				<Event Id="2627199907" Name="Play_StoneInWater_Effect" ObjectPath="\Events\Default Work Unit\Play_StoneInWater_Effect" DurationType="OneShot" DurationMin="0.605463" DurationMax="0.605463"/>
+				<Event Id="1893163709" Name="Play_Success_Effect" ObjectPath="\Events\Default Work Unit\Play_Success_Effect" DurationType="OneShot" DurationMin="4.66719" DurationMax="4.66719"/>
+				<Event Id="766066096" Name="Play_Sundown_Effect" ObjectPath="\Events\Default Work Unit\Play_Sundown_Effect" DurationType="OneShot" DurationMin="2.275279" DurationMax="2.275279"/>
+				<Event Id="3701395898" Name="Play_TaskSuccess_Effect" ObjectPath="\Events\Default Work Unit\Play_TaskSuccess_Effect" DurationType="OneShot" DurationMin="1.120317" DurationMax="1.120317"/>
+				<Event Id="338778843" Name="Play_Time_Effect" ObjectPath="\Events\Default Work Unit\Play_Time_Effect" DurationType="OneShot" DurationMin="1.436735" DurationMax="1.436735"/>
+				<Event Id="105396258" Name="Play_Transform_Effect" ObjectPath="\Events\Default Work Unit\Play_Transform_Effect" DurationType="OneShot" DurationMin="1.671837" DurationMax="1.671837"/>
+				<Event Id="3454122789" Name="Play_Translation_Effect" ObjectPath="\Events\Default Work Unit\Play_Translation_Effect" DurationType="OneShot" DurationMin="0.503152" DurationMax="0.503152"/>
+				<Event Id="3298394846" Name="Play_Tree_Effect" ObjectPath="\Events\Default Work Unit\Play_Tree_Effect" DurationType="Infinite"/>
+				<Event Id="2102574790" Name="Play_TreeDown_Effect" ObjectPath="\Events\Default Work Unit\Play_TreeDown_Effect" DurationType="OneShot" DurationMin="1.319528" DurationMax="1.319528"/>
+				<Event Id="4236906148" Name="Play_Vapor_Effect" ObjectPath="\Events\Default Work Unit\Play_Vapor_Effect" DurationType="OneShot" DurationMin="3.0785" DurationMax="3.0785"/>
+				<Event Id="2292952944" Name="Play_Yantai_Effect" ObjectPath="\Events\Default Work Unit\Play_Yantai_Effect" DurationType="OneShot" DurationMin="1.596155" DurationMax="1.596155"/>
+				<Event Id="2632259088" Name="Stop_Fire_Effect" ObjectPath="\Events\Default Work Unit\Stop_Fire_Effect" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2818665114" Name="Stop_Rain_Effect" ObjectPath="\Events\Default Work Unit\Stop_Rain_Effect" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="990665014" Name="Stop_River_Effect" ObjectPath="\Events\Default Work Unit\Stop_River_Effect" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2718580077" Name="Stop_Smoke_Effect" ObjectPath="\Events\Default Work Unit\Stop_Smoke_Effect" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2360394884" Name="Stop_Tree_Effect" ObjectPath="\Events\Default Work Unit\Stop_Tree_Effect" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="2903262" Language="SFX">
+					<ShortName>Level2_Grass_Effect.wav</ShortName>
+					<Path>SFX\Level2_Grass_Effect_822CB100.wem</Path>
+				</File>
+				<File Id="38013351" Language="SFX">
+					<ShortName>Time_Effect.wav</ShortName>
+					<Path>SFX\Time_Effect_10C4C929.wem</Path>
+				</File>
+				<File Id="56001358" Language="SFX">
+					<ShortName>Success_bgm.wav</ShortName>
+					<Path>SFX\Success_bgm_58DD9146.wem</Path>
+				</File>
+				<File Id="60245688" Language="SFX">
+					<ShortName>Pickup_Effect.wav</ShortName>
+					<Path>SFX\Pickup_Effect_8F32AF5F.wem</Path>
+				</File>
+				<File Id="68518618" Language="SFX">
+					<ShortName>untitled.wav</ShortName>
+					<Path>SFX\untitled_10C4C929.wem</Path>
+				</File>
+				<File Id="133287782" Language="SFX">
+					<ShortName>Open_Effect.wav</ShortName>
+					<Path>SFX\Open_Effect_10C4C929.wem</Path>
+				</File>
+				<File Id="171513478" Language="SFX">
+					<ShortName>Yantai_Effect.wav</ShortName>
+					<Path>SFX\Yantai_Effect_427DBC07.wem</Path>
+				</File>
+				<File Id="213329244" Language="SFX">
+					<ShortName>乌鸦飞.wav</ShortName>
+					<Path>SFX\乌鸦飞_EDAF297F.wem</Path>
+				</File>
+				<File Id="348016192" Language="SFX">
+					<ShortName>Button_Effect.wav</ShortName>
+					<Path>SFX\Button_Effect_386315A1.wem</Path>
+				</File>
+				<File Id="360627441" Language="SFX">
+					<ShortName>shake_Effect.wav</ShortName>
+					<Path>SFX\shake_Effect_1CF54563.wem</Path>
+				</File>
+				<File Id="362986123" Language="SFX">
+					<ShortName>Sundown_Effect.wav</ShortName>
+					<Path>SFX\Sundown_Effect_D3AC1834.wem</Path>
+				</File>
+				<File Id="374512680" Language="SFX">
+					<ShortName>Fire_Effect.wav</ShortName>
+					<Path>SFX\Fire_Effect_10C4C929.wem</Path>
+				</File>
+				<File Id="398230695" Language="SFX">
+					<ShortName>Bed_Effect.wav</ShortName>
+					<Path>SFX\Bed_Effect_71FB6592.wem</Path>
+				</File>
+				<File Id="518549201" Language="SFX">
+					<ShortName>transform_Effect.wav</ShortName>
+					<Path>SFX\transform_Effect_5C4B9DD7.wem</Path>
+				</File>
+				<File Id="539927483" Language="SFX">
+					<ShortName>Level2_Cut_Effect.wav</ShortName>
+					<Path>SFX\Level2_Cut_Effect_10C4C929.wem</Path>
+				</File>
+				<File Id="569427810" Language="SFX">
+					<ShortName>TaskSuccess_Effect.wav</ShortName>
+					<Path>SFX\TaskSuccess_Effect_10C4C929.wem</Path>
+				</File>
+				<File Id="665423274" Language="SFX">
+					<ShortName>Level2_StoneInWater_Effect.wav</ShortName>
+					<Path>SFX\Level2_StoneInWater_Effect_1503C4A7.wem</Path>
+				</File>
+				<File Id="670129121" Language="SFX">
+					<ShortName>Level2_TreeDown_Effect.wav</ShortName>
+					<Path>SFX\Level2_TreeDown_Effect_FB9CEBE6.wem</Path>
+				</File>
+				<File Id="675486633" Language="SFX">
+					<ShortName>River_Effect.wav</ShortName>
+					<Path>SFX\River_Effect_16156DA2.wem</Path>
+				</File>
+				<File Id="723941074" Language="SFX">
+					<ShortName>Smoke_Effect.wav</ShortName>
+					<Path>SFX\Smoke_Effect_C277BA8A.wem</Path>
+				</File>
+				<File Id="811269539" Language="SFX">
+					<ShortName>Translation_Effect.wav</ShortName>
+					<Path>SFX\Translation_Effect_10C4C929.wem</Path>
+				</File>
+				<File Id="874740735" Language="SFX">
+					<ShortName>Tree_Effect.wav</ShortName>
+					<Path>SFX\Tree_Effect_DE59F217.wem</Path>
+				</File>
+				<File Id="924150163" Language="SFX">
+					<ShortName>Create_Effect.wav</ShortName>
+					<Path>SFX\Create_Effect_C81D9EA4.wem</Path>
+				</File>
+				<File Id="981413208" Language="SFX">
+					<ShortName>Level2_Vapor_Effect.wav</ShortName>
+					<Path>SFX\Level2_Vapor_Effect_939F3975.wem</Path>
+				</File>
+				<File Id="1040687843" Language="SFX">
+					<ShortName>Level2_Rain_Effect.wav</ShortName>
+					<Path>SFX\Level2_Rain_Effect_7198C448.wem</Path>
+				</File>
+				<File Id="1068412603" Language="SFX">
+					<ShortName>Level2_Crow_Effect.wav</ShortName>
+					<Path>SFX\Level2_Crow_Effect_2F653261.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
